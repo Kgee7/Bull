@@ -10,7 +10,7 @@
 
 import { ai } from '@/ai/genkit';
 import { z } from 'genkit';
-import { crypto } from 'crypto';
+import crypto from 'crypto';
 
 const MomoWithdrawalInputSchema = z.object({
   amount: z.number().describe('The amount of GHS to withdraw.'),
